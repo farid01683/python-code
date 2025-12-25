@@ -1,28 +1,3 @@
-##########
-name = input('0i,what is your name?')
-print ('hi', name, '?')
-
-age = int(input('what is yor age?'))
-if age >=18:
-    print ('sorry bro')
-else:
-    print('you are a kidS') 
-
-######
-
-
-import time
-import pyautogui
-count = 5
-for i in range(5):
-    print(count)
-    time.sleep(1)
-    count = count - 1
-for i in range(100):
-    pyautogui.typewrite('Allah')
-    pyautogui.press('enter')
-
-
 #############variable
 
 a = 4
@@ -58,5 +33,57 @@ elif tshirt == 120:
 else:
     print('i cant buy')
     
+######################Loop
+
+a = ('apple')
+for i in a:
+    print('my name is farid')
+    
+for i in range(100):
+    print('my name is farid')
+
+
+
+
+########### import time , payautogui
+import time
+a = 5
+for i in range(5):
+    print(a)
+    time.sleep(1)
+    a = a - 1
+
+
+###large message
+    import pyautogui
+for i in range(100):
+    pyautogui.typewrite('my name is farid')
+    pyautogui.press('enter')
+    time.sleep(.1)
+
+
+import time
+import pyautogui
+a = 5
+for i in range(5):
+    print(a)
+    time.sleep(1)
+    a = a - 1
+for i in range(100):
+    pyautogui.typewrite('my name is farid')
+    pyautogui.press('enter')   
+    time.sleep(.1)
+
+
+########### input fanction
+
+name = input('what is your name?')
+print ('hi', name, '?')
+
+age = int(input('what is yor age?'))
+if age >=18:
+    print ('sorry brother')
+else:
+    print('you are a kid')
 
     
