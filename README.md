@@ -86,4 +86,12 @@ if age >=18:
 else:
     print('you are a kid')
 
+
+################# while loop
+
+a = ''
+while a != 'ok':
+    print('please buy this')
+    a =input()
+print('thanks')
     
