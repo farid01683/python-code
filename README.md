@@ -94,4 +94,26 @@ while a != 'ok':
     print('please buy this')
     a =input()
 print('thanks')
+
+father = ''
+while father != 'ok':
+    print('dad, please buy this')
+    father =input()
+print('thanks dad')
+
+
+######### build function
+
+def farid():
+    print("wake up in the morning")
+    print("take breakfast")
+    print("go to office")
+    print(" work with other")
+    print("back home")
+    print("go to sleep")
+
+
+farid()
+farid()
+farid()
     
