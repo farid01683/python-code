@@ -116,4 +116,47 @@ def farid():
 farid()
 farid()
 farid()
+
+
+########## function argument 
+
+def x(a, b):
+    print(f"your name {a} and my name {b}")
+
+x("farid","masud")
+
+
+
+##############calculator 
+
+num1= int(input("num1: "))
+num2= int(input("num2: "))
+op = input("operation: ")
+
+if( op == "+"):
+    print("the result is", num1 + num2)
+elif (op == "-"):
+    print("the result is", num1 - num2)
+elif( op == "*"):
+    print("the result is", num1 * num2)
+elif( op == "/"):
+    print("the result is", num1 / num2)
+else:
+    print("invalid result")
+
+
+ a= int(input("a: "))
+b= int(input("b: "))
+op = input("operation: ")
+
+if( op == "+"):
+    print("the result is", a + b)
+elif (op == "-"):
+    print("the result is", a - b)
+elif( op == "*"):
+    print("the result is", a * b)
+elif( op == "/"):
+    print("the result is", a / b)
+else:
+    print("invalid result")
     
